@@ -12,7 +12,15 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          "sheet": "url('/img/sheet.png')",
       },
+      colors: {
+        'gray': '#292929',
+        'blue': '#60A3D6',
+        'orange': '#F48F49',
+        'pink': '#DC639A',
+        'yellow': '#EFD84D'
+      }
     },
   },
   plugins: [],
