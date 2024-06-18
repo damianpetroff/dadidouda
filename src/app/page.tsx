@@ -12,14 +12,14 @@ export default function Home() {
   const [num, setNum] = useState<string>()
 
   return (
-    <main className=" min-h-screen p-12 text-gray -z-50">
+    <main className=" min-h-screen p-12 text-gray">
       <div className=" flex flex-col items-center justify-start print:hidden">
 
         <h1 className="font-extrabold tracking-tight text-5xl">Crée ta carte Dadidouda</h1>
         <div className="relative flex flex-col items-center justify-between px-12">
-          <img src="/img/stars.png" alt='stars' className="absolute w-[400px] h-[400px] -top-16 -left-40 object-contain z-50"/>
-          <img src="/img/stars_2.png" alt='stars' className="absolute w-[300px] h-[200px] -bottom-8 -right-56 object-contain z-50"/>
-          <div className="flex gap-8 pt-8 z-40">
+          <img src="/img/stars.png" alt='stars' className="absolute w-[400px] h-[400px] -top-16 -left-40 object-contain -z-10"/>
+          <img src="/img/stars_2.png" alt='stars' className="absolute w-[300px] h-[200px] -bottom-8 -right-56 object-contain -z-10"/>
+          <div className="flex gap-8 pt-8">
             <div>
               <label htmlFor="name" className="block tracking-tighter">
                 Ton prénom
